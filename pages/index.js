@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Home(){
   return (
     <div>
@@ -7,7 +9,7 @@ function Home(){
         e gostaria de te compartilhar um pedaço dele, 
         por enquanto está simples, porque estou seguindo 
         o fluxo do curso, mas é de coração &hearts;</p>
-      <img src="https://i.redd.it/6vhkra8p2uha1.jpgj"></img>
+      <img src="https://imgur.com/eJmN9xa" width={200} height={200} alt="capybaraValentine"/>
     </div>
   )
 }
