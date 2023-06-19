@@ -1,6 +1,6 @@
 function Home(){
   return (
-    <div>
+      <div>
       <h1>Mozao eu te amoo &hearts;</h1>
       
       <p>Estou construindo esse pedacinho de internet 
