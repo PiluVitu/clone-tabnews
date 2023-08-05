@@ -1,17 +1,19 @@
-function Home() {
+export default function Home() {
   return (
     <div>
-      <h1>Mozao eu te amoo &hearts;</h1>
+      <h1>ChefTab</h1>
 
       <p>
-        Estou construindo esse pedacinho de internet e gostaria de te
-        compartilhar um pedaço dele, por enquanto está simples, porque estou
-        seguindo o fluxo do curso, mas é de coração &hearts;🦊
+        Esse é um pedaço da internet que está sendo criado para habitar um local
+        onde você vai poder encontrar todo tipo de receita com valores
+        concretos, e impulsionadas pela comunidade.
       </p>
-      <img src="https://i.redd.it/6vhkra8p2uha1.jpg" alt="Capybara Love" />
+      <p>
+        Com o fim de facilitar o acesso das pessoas a receitas que realmente
+        foram testadas, e o melhor de tudo livre de anuncios pulando na sua
+        cara, quando você quer uma simples receita.
+      </p>
+      <h2>Em breve...</h2>
     </div>
   );
 }
-
-export default Home;
-("");
