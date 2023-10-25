@@ -4,7 +4,7 @@
   "description": "Clone do TabNews feito no curso do Filipe",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev & docker compose -f infra/compose.yaml up -d",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
